@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #FFF8ED;
+  }
+
+  #evil-button {
+    position: absolute;
+    white-space: nowrap; /*няма да излиза от страницата*/
+    font-size: 2rem;
+    width: 10%;
+    margin-left: 50px;
+    background-color: transparent;
+  }
+  #yes{
+    font-size: 2rem;
+    margin-left: 83%;
+    width: 10%;
+    background-color: transparent;
+  }
+
+  img{
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+ 
+/* Background Styles Only */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  font-family: Raleway;
+}
+
+.side-links {
+position: absolute;
+top: 15px;
+right: 15px;
+}
+
+.side-link {
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+margin-bottom: 10px;
+color: white;
+width: 180px;
+padding: 10px 0;
+border-radius: 10px;
+}
+
+.side-link-youtube {
+background-color: red;
+}
+
+.side-link-twitter {
+background-color: #1DA1F2;
+}
+
+.side-link-github {
+background-color: #6e5494;
+}
+
+.side-link-text {
+margin-left: 10px;
+font-size: 18px;
+}
+
+.side-link-icon {
+color: white;
+font-size: 30px;
+}
